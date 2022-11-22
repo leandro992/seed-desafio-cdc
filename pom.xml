@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.alura</groupId>
-	<artifactId>seed-desafio-cdc01</artifactId>
+	<artifactId>seed-desafio-cdc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>seed-desafio-cdc01</name>
-	<description>seed-desafio-cdc01</description>
+	<name>seed-desafio-cdc</name>
+	<description>seed-desafio-cdc</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
