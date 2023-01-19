@@ -24,14 +24,12 @@ import java.util.Map;
 @RequestMapping(value = "/author")
 public class AuthorController extends HandleValidationExceptions {
 
-
     @Autowired
     private AuthorRepository authorRepository;
     @GetMapping("/")
     String home() {
         return "Hello, World!!!!!!!!!!!!!!!!!@#$";
     }
-
 
     @GetMapping
     public List<Author> getAuthor() {
@@ -42,5 +40,4 @@ public class AuthorController extends HandleValidationExceptions {
     public Author saveAuthor(@RequestBody @Valid Author author) {
         return authorRepository.save(author);
     }
-
 }
