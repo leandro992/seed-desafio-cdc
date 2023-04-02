@@ -1,4 +1,4 @@
-package com.deveficiente;
+package com.deveficiente.config;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

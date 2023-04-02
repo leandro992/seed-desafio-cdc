@@ -1,8 +1,5 @@
 package com.deveficiente.entity.dto;
 
-import com.deveficiente.ExistsId;
-import com.deveficiente.UniqueValue;
-import com.deveficiente.entity.Country;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;

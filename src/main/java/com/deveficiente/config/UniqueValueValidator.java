@@ -1,5 +1,6 @@
-package com.deveficiente;
+package com.deveficiente.config;
 
+import com.deveficiente.config.UniqueValue;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;

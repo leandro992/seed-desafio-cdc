@@ -1,6 +1,6 @@
 package com.deveficiente.entity.dto;
 
-import com.deveficiente.UniqueValue;
+import com.deveficiente.config.UniqueValue;
 import com.deveficiente.entity.Author;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
